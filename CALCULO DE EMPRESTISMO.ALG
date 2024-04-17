@@ -1,9 +1,9 @@
-Algoritmo "Cálculo de Juros de um Empréstimo"
+Algoritmo "calculo de emprestismo"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 15/04/2024
+// Data atual  : 17/04/2024
 Var
 // Seção de Declarações das variáveis 
 valor,valor_total,juros,valor_parcela:real
@@ -35,12 +35,15 @@ leia(valor)
     step -10
  fimse
   fimse
-  
+
 para parcela de parc_min ate parc_max passo step faca
     valor_total <- valor+(valor*juros*parcela)
     valor_parcela <- valor_total/parcela
     escreval("===========================")
     escreval("o emprestimo de R$, valor_parcela")
-    escreval("
+    escreval("o valor total e R$", valor_total)
+    fimpara
+
+
 
 Fimalgoritmo
